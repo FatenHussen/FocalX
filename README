@@ -1,0 +1,32 @@
+# Simple Blog Management System
+
+## Introduction
+This is a simple PHP-based blog management system that allows users to create, read, update, and delete blog posts.
+
+## Setup Instructions
+
+1. **Database Setup:**
+   - Create a MySQL database named `blog_db`.
+   - Run the `create_posts_table.sql` script located in the `sql/` directory to create the `posts` table.
+
+2. **Configure Database:**
+   - Update the database credentials in `classes/Database.php` if needed.
+
+3. **Running the Application:**
+   - Start local server (Apache and MySQL) using XAMPP.
+   - Open browser and navigate to `http://localhost/simple_blog/list_posts.php` to start managing blog posts.
+
+## Features
+- Create a new blog post.
+- View a single blog post.
+- Edit an existing blog post.
+- Delete a blog post.
+- List all blog posts.
+
+## Technologies Used
+- PHP
+- MySQL
+- css Bootstrap (for styling)
+
+## Author
+- [faten jamal Hussein]
